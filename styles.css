@@ -1,0 +1,700 @@
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-image: url(Images_All_STAR/andre-tan-Wbkl9Rgv3OI-unsplash.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  border-bottom: 2px solid whitesmoke;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.head-1 {
+  font-family: "Shadows Into Light",sans-serif;
+  font-size: 1.3em;
+  color: whitesmoke;
+}
+
+.head-2 {
+  display: flex;
+  gap: 1.5vw;
+  font-size: 1.3em;
+}
+
+#link-head {
+  text-decoration: none;
+  padding: 0.5vw;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
+
+#link-head:hover {
+  text-decoration: underline;
+
+}
+
+.reseaux{
+  display: flex;
+  gap: 1vw;
+  font-size: 1.7em;
+}
+
+.head-title {
+  margin: 16vw 0 1vw 2vw;
+  height: auto;
+  width: 50vw;
+  padding: 1vw;
+  font-family: "Anton", sans-serif;
+  font-size: 1.3em;
+  color: whitesmoke;
+  text-decoration: underline red;
+}
+
+.Actu-title {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin: 13vw 0 0 2vw;
+  height: auto;
+  width: 12vw;
+  padding: 1vw;
+  font-family: "Anton", sans-serif;
+  border-radius: 15px;
+  font-size: 1.8em;
+  color: whitesmoke;
+  text-decoration: underline red;
+}
+
+.resume-title {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-family: "Anton", sans-serif;
+  margin: 10vw 0 0 2vw;
+  height: auto;
+  width: 50vw;
+  padding: 1vw;
+  border-radius: 15px;
+  font-size: 1.3em;
+  color: whitesmoke;
+  text-decoration: underline red;
+}
+
+.logo-team {
+  display: flex;
+  height: 28vh;
+  border-radius: 15px;
+  margin: 1vw;
+  width: 13vw;
+  box-shadow: 0 0 10px 0 rgb(166, 165, 172);
+  transition: all 0.1s ease 0.1s;
+}
+
+.logo-team:hover {
+  transform: scale(1.2);
+}
+
+.logo-team:hover .text-logo {
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.text-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  opacity: 0;
+  position: absolute;
+  color: whitesmoke;
+  font-family: "Montserrat",sans-serif;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#card{
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.cards-main {
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+}
+
+.conf-est {
+  display: inline-block;
+  margin-left: 2vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Saira Condensed",sans-serif;
+  font-size: 1.3em;
+  padding: 0.3vw;
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: #011526;
+}
+
+.cards-teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35vh;
+  color: #011526;
+  background-color: whitesmoke;
+  overflow-x: scroll;
+}
+
+.cards-teams #card {
+  min-width: 11.5vw;
+}
+
+.cards-teams::-webkit-scrollbar {
+  display: none;
+}
+
+.line {
+  margin: 0.5vw;
+}
+
+.img-container {
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.news-main {
+  height: 202vh;
+  width: 100%;
+  padding: 3vw;
+  background-color: whitesmoke;
+}
+
+.new-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-radius: 10px;
+  height: 50vh;
+  width: 70vw;
+  margin-left: 12vw;
+  box-shadow: 0 0 10px 0 rgb(96, 79, 79);
+}
+
+.new-1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  background-color: black;
+  font-family: "Montserrat" ,sans-serif;
+  padding: 2vw;
+  height: 100%;
+  width: 30vw;
+  font-size: 0.8em;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.new-1-text h1 {
+  font-size: 2em;
+}
+
+.new-1 img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
+  width: 40vw;
+}
+
+.new-1-text p{
+  border-bottom: 2px solid red;
+  padding-bottom: 3vw;
+}
+
+#Plus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+#Plus:hover {
+  color: red;
+}
+
+.new-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 90vw;
+  margin-top: 4vw;
+  margin-bottom: 7vw;
+  margin-left: 2vw;
+  border-top: 2px solid black;
+  padding-top: 4vw;
+}
+
+.new-2-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 70%;
+  gap: 1vw;
+  font-family: "Montserrat" ,sans-serif;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.new-2-text:hover{
+  background-color: black;
+
+}
+
+.new-2-1-infos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 2px solid red;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding-top: 1vw;
+}
+
+.infos{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.infos:hover{
+  color: red;
+}
+
+#new-2-1{
+  background-image: url(Images_All_STAR/pexels-markusspiske-1752757.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#new-2-2{
+  background-image: url(Images_All_STAR/craig-philbrick-HuHGLn21fM0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#new-2-3{
+  background-image: url(Images_All_STAR/pexels-leo-iordache-3808800-29495137.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#new-2-4{
+  background-image: url(Images_All_STAR/taylor-smith-U1sRfPmU22c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.new-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3vw;
+  margin-left: 2vw;
+  height: 50vh;
+  width: 90vw;
+}
+
+.new-3-text h1 {
+  font-size: 2em;
+}
+
+.new-3-contain-right {
+  border-radius: 10px;
+  height: 58vh;
+  font-size: 0.8em;
+  width: 25vw;
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 0 0 10px 0 rgb(96, 79, 79);
+}
+
+.new-3-contain-left {
+  display: flex;
+  border-radius: 10px;
+  height: 58vh;
+  font-size: 0.8em;
+  width: 54vw;
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 0 0 10px 0 rgb(96, 79, 79);
+}
+
+video{
+  border-radius: 10px;
+}
+
+.new-2-contain {
+  border-radius: 10px;
+  height: 58vh;
+  width: 25vw;
+  color: whitesmoke;
+  font-size: 0.8em;
+  background-color: black;
+  box-shadow: 0 0 10px 0 rgb(96, 79, 79);
+}
+
+.img-bottom {
+  height: 100%;
+  width: 30vw;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.new-3-text {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: space-around;
+  padding: 2vw;
+}
+
+.results-teams {
+  display: flex;
+  flex-direction: row;
+  font-family: "Tektur", sans-serif;
+  justify-content: space-around;
+  height: 40vh;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  color: #011526;
+  background-color: whitesmoke;
+  overflow-x: scroll;
+}
+
+.results-teams #result {
+  min-width: 20vw;
+}
+
+.results-teams::-webkit-scrollbar {
+  display: none;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  background-image: url(Images_All_STAR/ricardo-resende-HVOwuodWbu0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  margin: 1vw;
+  margin-top: 2vw;
+  width: 25vw;
+  box-shadow: 0 0 10px 0 rgb(96, 79, 79);
+}
+
+.mores {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: whitesmoke;
+  width: 17vw;
+  padding: 0.5vw;
+
+}
+
+.mores:hover {
+  color: #f05033;
+  background-color: whitesmoke;
+}
+
+#arrow{
+  color: white;
+  position: relative;
+  left: 90vw;
+  top: 3vw;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Anton", sans-serif;
+  height: 30vh;
+  /* width: 100%; */
+  margin-top: 20vh;
+  border-top: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5vw;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.mentions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#follow {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#contact {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
+#mentions {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+}
+
+.Copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 1vw 0 1vw 0;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  
+  header {
+    height: auto;
+  }
+
+  .head-1 {
+    font-size: 1.3em;
+  }
+
+  .head-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6em;
+    font-weight:bold ;
+  }
+
+  .Actu-title {
+    margin-top: 12vh;
+    font-size: 1.6em;
+    width: auto;
+  }
+
+  .head-title {
+    margin-top: 13vh;
+    font-size: 1.1em;
+    width: auto;
+  }
+
+  .conf-est {
+    font-size: 0.8em;
+    padding: 1vw;
+  }
+
+  .cards-teams {
+    height: 29vh;
+  }
+
+  #card {
+    width: 30vw;
+  }
+
+  .text-logo{
+    font-size: 0.6em;
+  }
+
+  .logo-team {
+    height: 25vh;
+    width: 30vw;
+  }
+
+  .new-1 {
+    height: 55vh;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0;
+    border-radius: 0;
+  }
+
+  .new-1 img {
+    width: 55vw;
+    border-radius: 0;
+  }
+
+  .news-main {
+    height: 253vh;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .new-1-text {
+    width: 90vw;
+    font-size: 0.6em;
+    border-radius: 0;
+  }
+
+  .new-1-text h1{
+    font-size: 1.7em;
+  }
+
+  .new-1-text p{
+    font-size: 1.2em;
+  }
+
+  #Plus {
+    font-size: 1.4em;
+  }
+
+  .new-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+    gap: 7vw;
+  }
+
+  .new-2-contain{
+    height: 65vh;
+    width: 80vw;
+    font-size: 0.6em;
+  }
+
+  .new-3 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10vw;
+    margin: 0;
+    height: 70vh;
+    width: 100%;
+  }
+
+  .new-3-contain-right{
+    height: 65vh;
+    width: 80vw;
+    font-size: 0.6em; 
+  }
+
+  .new-3-contain-left{
+    height: 45vh;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .resume-title{
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .results-teams {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    height: 25vh;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .results-teams .results {
+    flex: 0 0 auto;
+    width: 280px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    width: 70%;
+  }
+
+  .results h1 {
+    font-size: 1rem;
+  }
+
+  #arrow{
+    font-size: 1.5em;
+  }
+
+  .reseaux{
+    display: none;
+  }
+
+  body {
+    height: 300vh;
+    overflow-x: hidden;
+  }
+
+  .footer {
+    font-size: 0.7em;
+    height: 20vh;
+  }
+
+  #contact {
+    font-size: 1em;
+  }
+
+  .Copyright{
+    font-size: 0.7em;
+  }
+}

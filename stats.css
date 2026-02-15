@@ -1,0 +1,359 @@
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1vw;
+}
+body {
+  background-image: url(Images_All_STAR/taylor-smith-nYg4BDP86Aw-unsplash.jpg);
+  background-size: contain;
+  background-position: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  /* width: 100%; */
+  height: 10vh;
+  border-bottom: 2px solid whitesmoke;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.head-1 {
+  font-family: "Shadows Into Light",sans-serif;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.head-2 {
+  display: flex;
+  gap: 1.5vw;
+  font-size: 1.3em;
+
+}
+.reseaux{
+  display: flex;
+  gap: 1vw;
+  font-size: 1.7em;
+}
+#link-head {
+  text-decoration: none;
+  padding: 0.5vw;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
+#link-head:hover {
+  text-decoration: underline;
+}
+.conf-est {
+  margin: 1vw 3vw 0 5vw;
+  padding: 1vw;
+  height: 70vh;
+  width: 50vw;
+}
+.class-title {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin: 7vw 0 1vw 5vw;
+  height: auto;
+  width: auto;
+  padding: 1vw;
+  border-radius: 15px;
+  font-size: 1.3em;
+  font-family: "Anton", sans-serif;
+  color: whitesmoke;
+  text-decoration: underline red;
+}
+.classement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  padding-bottom: 1vw;
+}
+.conf-title {
+  display: inline-block;
+  margin-left: 8vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 0.6em;
+  padding: 0.3vw;
+  text-decoration: none;
+  font-family: "Saira Condensed",sans-serif;
+  background-color: whitesmoke;
+  color: #011526;
+}
+#conf-title {
+  display: inline-block;
+  margin-left: 42%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 0.6em;
+  padding: 0.3vw;
+  text-decoration: none;
+  font-family: "Saira Condensed",sans-serif;
+  background-color: whitesmoke;
+  color: #011526;
+}
+tbody td:nth-child(even) {
+  background-color: #f3f3f3;
+}
+.contain {
+  background-color: whitesmoke;
+  height: auto;
+  width: 100%;
+}
+.stats-title {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin: 5vw 0 1vw 4vw;
+  height: auto;
+  width: auto;
+  padding: 1vw;
+  border-radius: 15px;
+  font-size: 1.7em;
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+  text-decoration: underline red;
+}
+tbody td {
+  font-size: 0.9em;
+}
+.stats-off-title {
+  display: inline-block;
+  margin: 1vw 0 0 5vw;
+  height: auto;
+  padding: 0.4vw;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 0.8em;
+  color: #011526;
+  font-family: "Saira Condensed",sans-serif;
+  background-color: whitesmoke;
+}
+.stats-deff-title {
+  display: inline-block;
+  margin: 1vw 0 0 5vw;
+  height: auto;
+  padding: 0.4vw;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 0.8em;
+  font-family: "Saira Condensed",sans-serif;
+  color: #011526;
+  background-color: whitesmoke;
+}
+td img {
+  height: 1.2vw;
+  width: 1.2vw;
+  object-fit: cover;
+  border-radius: 100%;
+  align-self: center;
+}
+table {
+  height: 30vh;
+  width: 30vw;
+  padding: 0.5vw;
+  background-color: white;
+  border-radius: 8px;
+  font-family: "Tektur",sans-serif;
+  box-shadow: 0 0 15px 0 rgb(145, 135, 135);
+}
+table th {
+  text-decoration: underline red;
+  margin-bottom: 0.5vw;
+  font-size: 1.1em;
+}
+tr {
+  border: 2px solid;
+}
+tbody .td-bottom {
+  border: none;
+}
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+table td {
+  text-align: start;
+  border: 0.5px solid;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  padding-left: 0.5vw;
+}
+.a-c {
+  text-align: center;
+}
+#arrow{
+  color: white;
+  position: relative;
+  left: 90vw;
+  top: 3vw;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Anton", sans-serif;
+  height: 30vh;
+  /* width: 100%; */
+  margin-top: 20vh;
+  border-top: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5vw;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+.mentions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#follow {
+  text-decoration: none;
+  color: whitesmoke;
+}
+#contact {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+#mentions {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+}
+.Copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 1vw 0 1vw 0;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  
+  header {
+    height: auto;
+  }
+
+  .head-1 {
+    font-size: 1.3em;
+  }
+
+  .head-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6em;
+    font-weight:bold ;
+  }
+
+  .head-title {
+    margin-top: 13vh;
+    font-size: 1.1em;
+    width: auto;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .classement {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  table {
+    margin: 0;
+    font-size: 0.9em;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .conf-est {
+    width: 100%;
+    margin: 0;
+  }
+
+  .class-title {
+    font-size: 1em;
+  }
+
+  .conf-title {
+    display: none;
+  }
+
+  #conf-title {
+    display: none;
+  }
+
+  .stats-title {
+    font-size: 1em;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .stats-off-title {
+    font-size: 0.7em;
+  }
+
+  .stats-deff-title {
+    font-size: 0.7em;
+  }
+
+  #arrow{
+    font-size: 1.5em;
+  }
+
+  .reseaux{
+    display: none;
+  }
+
+
+  .footer {
+    font-size: 0.7em;
+    height: 20vh;
+  }
+
+  #contact {
+    font-size: 1em;
+  }
+
+  .Copyright{
+    font-size: 0.7em;
+  }
+}
