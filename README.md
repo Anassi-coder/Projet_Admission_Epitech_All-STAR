@@ -1,7 +1,7 @@
 # All-STAR - NBA Blog
 
 ## Présentation du projet
-**All-STAR** est mon projet final au sein du programme Btech de l'association Z. Il s'agit d'un blog dédié à l'actualité de la NBA, conçu pour offrir une expérience immersive aux fans de basketball. 
+**All-STAR** est mon projet d'admission au sein d'Epitech. Il s'agit d'un blog dédié à l'actualité de la NBA, conçu pour offrir une expérience immersive aux fans de basketball. 
 
 L'objectif était de structurer un site multi-pages complet en respectant les standards du Web (sémantique, navigation et interactivité).
 
@@ -20,6 +20,14 @@ L'objectif était de structurer un site multi-pages complet en respectant les st
 ### Calendrier des Rencontres
 * Reprise de la charte graphique (Header/Footer).
 * **Section :** Organisation par blocs présentant les logos des franchises, les horaires, les dates et le lieu de chaque rencontre à venir.
+
+### Page Statistiques
+* **Classements par Conférence :** Tableaux détaillés pour les Conférences Est et Ouest (Franchises, Matchs, Victoires/Défaites).
+* **Stats Individuelles :** Segmentation précise des leaders de la ligue par catégories :
+    * **Offensives :** Points, Passes décisives, 3 Points.
+    * **Défensives :** Rebonds, Contres, Interceptions.
+    * **Globales :** Minutes jouées, Fautes, Balles perdues.
+* **Design :** Utilisation de tableaux structurés avec intégration de logos et photos de joueurs.
 
 ### Contact
 * **Formulaire de contact :** Champs Nom, Prénom, Email, Téléphone et Message.
